@@ -1,0 +1,22 @@
+{
+  "name": "Youtube Downloader",
+  "description": "Easy to download youtube video",
+  "version": "1.0.1",
+  "permissions": [
+  	"downloads",
+    "tabs"
+  ],
+  /*"background": {
+    "persistent": false,
+    "scripts": ["index.js"]
+  },*/
+  "browser_action":{
+    "default_popup": "popup.html",
+  	"default_icon": "utubedl.png"
+  },
+  "icons":{
+  	"16":"utubedl.png",
+  	"128":"utubedl.png"
+  },
+  "manifest_version": 2
+}
